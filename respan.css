@@ -286,6 +286,16 @@
         width: 88%;
         margin: 0 auto;
     }
+    .anar-off {
+        background-image: url(anar-off.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 85px;
+        height: 100px;
+        /* border: 1px solid darkblue; */
+        left: 45px;
+    }
 
     .con {
         width: 100%;
@@ -313,7 +323,7 @@
         width: 74px;
         text-align: center;
         height: 22px;
-        font-size: 24px;
+        font-size: 18px;
         position: absolute;
         left: 26px;
         /* top: -29px; */
@@ -335,7 +345,20 @@
         width: 100%;
 
     }
-
+    .pad span {
+        display: inline-block;
+        color: #fff;
+        font: bold 16px/34px samim;
+        padding: 0 15px;
+        border-radius: 100px;
+        margin-right: 5px;
+        background: #ed3340;
+        position: absolute;
+        top: -70px;
+        right: 243px;
+        width: 104px;
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width:907px) {
@@ -423,16 +446,33 @@
 
 @media only screen and (max-width:669px) {
     .anar {
-        left: 165px;
-        top: 387px;
+        left: 132px;
+        top: 391px;
     }
     h1{
         margin-right: 92px;
     }
-
+    .tap-nav{
+        visibility: hidden;
+    }
     .offer-product-img {
 
         background:transparent;
+    }
+    #img {
+        position: absolute;
+        top: 5px;
+        left: 265px;
+    }
+    h1 {
+        margin-right: 92px;
+        margin-top: 7px;
+        font-size: 40px;
+    }
+    .start-btn {
+        /* margin-right: 193px; */
+        position: absolute;
+        right: -2px;
     }
 
 }
@@ -588,4 +628,5 @@
         top: 5px;
         left: 175px;
     }
+
 }
