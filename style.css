@@ -347,18 +347,13 @@ h1 {
 
 
 .whiteback {
-    background: #fff;
-    position: relative;
-    top: 374px;
+/*    position: relative;*/
+/*    top: 374px;*/
     /*border: 1px solid darkred;*/
+    background: #fff;
+    width: 100%;
     min-height: 250px;
-}
 
-
-.whiteback:before {
-    content: "";
-    display: block;
-    position: absolute;
     min-width: 100%;
     max-width: 1920px;
     height: 319px;
@@ -369,7 +364,6 @@ h1 {
     background-repeat: no-repeat;
 }
 .container2 {
-
     min-height: 500px;
     background-color: rgb(248, 249, 249);
     /* border: 1px solid darkred;*/
@@ -391,7 +385,7 @@ h1 {
     margin-right: 15px;
 }
 
-
-
+/*section top off*/
+section.top-off .title {
+    margin-top: -113px;
 }
-
