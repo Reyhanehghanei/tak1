@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 1292px){
     .offer-product-info h3{
         font: bold 26px/1.8 samim;
@@ -19,6 +20,9 @@
         text-align: center;
     }
 }
+
+
+
 
 
 
@@ -213,6 +217,55 @@
 
     }
 
+@media only screen and (max-width: 995px) {
+
+    .container2 {
+        width: 93%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -96px;
+    }
+
+    .container3 {
+        width: 93%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: -50px;
+    }
+
+    .img3 img {
+        width: 80%;
+        height: 196px;
+    }
+    .matn3 h2 {
+        text-decoration: none;
+        font-size: 20px;
+        color: #0f1a1b;
+    }
+    .img3 img {
+        max-width: 50%;
+        margin-right: -37px;
+    }
+    .box {
+        width: calc(38.33% - 3px);
+        float: right;
+        padding: 15px;
+        position: relative;
+        background: #fff;
+        /* border-radius: 25px; */
+        margin: 0 15px 30px;
+        text-align: center;
+        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 5%);
+        height: 380px;
+    }
+    .title h2 {
+        margin-top: 80px;
+        margin-right: 93px;
+        position: relative;
+        top: -106px;
+        font-size: 20px;
+    }
+}
 @media only screen and (max-width: 980px){
 
 
@@ -395,6 +448,42 @@
         margin-right: 380px;
     }
 }
+@media only screen and (max-width: 808px) {
+    .container2 {
+        width: 93%;
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        margin-top: -120px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container3{
+        width: 93%;
+        /* flex-wrap: wrap; */
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: calc(71.33% - 3px);
+        float: right;
+        padding: 15px;
+        position: relative;
+        background: #fff;
+        /* border-radius: 25px; */
+        margin: 0 15px 30px;
+        text-align: center;
+        box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 5%);
+        height: 380px;
+    }
+    .img3 img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+
+
+}
     @media only screen and (max-width:800px) {
         .offer-product-flex{
             display: block;
@@ -472,7 +561,7 @@
     .start-btn {
         /* margin-right: 193px; */
         position: absolute;
-        right: -2px;
+        right: 51px;
     }
 
 }
@@ -530,21 +619,58 @@
         margin-top: -129px;
         text-align: center;
     }
+    h1 {
+        margin-right: 129px;
+        font-size: 25px;
+        margin-top: 0px;
+    }
 }
 
 
 @media only screen and (max-width:565px){
     .anar {
-        left: 46px;
-        top: 395px;
+        left: 65px;
+        top: 397px;
+        width: 79%;
     }
     .offer-product-img {
 
         background:transparent;
     }
 
-}
 
+}
+@media only screen and (max-width:555.56px){
+    .title h2 {
+        margin-top: 80px;
+        margin-right: 93px;
+        position: relative;
+        top: -102px;
+        font-size: 13px;
+    }
+
+    #h2 {
+        margin-top: 215px;
+        margin-right: 75px;
+        font: bold 24px/1 samim;
+        color: #252525;
+    }
+    .pad span {
+        /* display: inline-block; */
+        width: 93px;
+        color: #fff;
+        /* font: bold 16px/34px samim; */
+        /* padding: 0 15px; */
+        font-size: 18px;
+        text-align: center;
+        border-radius: 100px;
+        margin-right: 14px;
+        background: #ed3340;
+        position: absolute;
+        top: -70px;
+        right: 243px;
+    }
+}
 
 @media only screen and (max-width:546px){
 
@@ -628,6 +754,21 @@
         position: absolute;
         top: 5px;
         left: 175px;
+    }
+    .pad span {
+        /* display: inline-block; */
+        width: 93px;
+        color: #fff;
+        /* font: bold 16px/34px samim; */
+        /* padding: 0 15px; */
+        font-size: 18px;
+        text-align: center;
+        border-radius: 100px;
+        margin-right: 14px;
+        background: #ed3340;
+        position: absolute;
+        top: -70px;
+        right: 243px;
     }
 
 }
